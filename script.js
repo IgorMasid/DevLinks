@@ -11,8 +11,8 @@ function toggleMode() {
   const img = document.querySelector("#profile img")
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./AvatarLightMode-pic.png")
+    img.setAttribute("src", "./assets/AvatarLightMode-pic.png")
   } else {
-    img.setAttribute("src", "./avatar.png")
+    img.setAttribute("src", "./assets/avatar.png")
   }
 }
